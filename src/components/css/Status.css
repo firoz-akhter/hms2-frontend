@@ -1,0 +1,35 @@
+.status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.status-heading {
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+}
+
+.flex-div {
+    display: flex;
+    /* width:95%; */
+}
+
+.flex-div > div {
+    /* width: 100px; */
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-right: 10px;
+
+    display: flex;
+    text-align: left;
+}
+
+
+.icon {
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgb(197, 197, 250);
+    border-radius: 7px;
+
+}

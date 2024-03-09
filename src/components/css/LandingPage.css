@@ -1,0 +1,75 @@
+.landingPage-container {
+    background-image: url("../img//bg01.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+/* .navbar-right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.logo {
+    color: white;
+    padding: 10px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.body-header {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.body > p {
+    color: #b9b3b3;
+}
+
+.loginBtn, .registerBtn {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.loginBtn:hover, .registerBtn:hover {
+    background-color: #064785;
+}
+
+.makeAppointment-btn {
+    background-color: #064785;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.makeAppointment-btn:hover {
+    /* background-color: #0a2f52; */
+    scale: 1.05;
+}
+

@@ -1,0 +1,36 @@
+.right-div {
+    width: 80%;
+    padding: 60px 40px;
+}
+
+.navbar-first-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.welcome-section {
+    margin-top: 25px;
+    margin-bottom: 5%;
+    background-image: url(../img/b3.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+    border-spacing: 0;
+
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.welcome-para, .welcome-section-heading, .para-last {
+    margin-bottom: 10px;
+}
+
+.para-last {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,44 @@
+.scheduledSessionSection-container {
+    width: 80%;
+    padding: 20px 40px;
+
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.sessions-container {
+    /* display: grid; */
+    
+}
+
+
+.session-div {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    padding-top: 30px;
+
+    text-align: left;
+
+    /* width: 40%; */
+    
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.session-div > h3 {
+    color: #0a76d8;
+    margin-bottom: 20px;
+}
+
+.bookNow-btn {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    background-color: #0a76d8;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,23 @@
+.administrator-container {
+    display: flex;
+    width: 100%;
+}
+
+.right-div {
+    width: 80%;
+    padding: 20px 40px;
+}
+
+.searchBar-and-date-div {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    margin-bottom: 40px;
+
+
+}
+.searchBar-and-date-div > div:first-child {
+    flex: 1;
+}
+
+

@@ -1,0 +1,39 @@
+.myBookingSection-container {
+    width: 80%;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+
+}
+
+
+.booking-div {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    padding-top: 30px;
+
+    text-align: left;
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+
+}
+
+.booking-div > h3 {
+    color: #0a76d8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bookNow-btn {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    background-color: #0a76d8;
+    border-radius: 5px;
+    color: white;
+
+    cursor: pointer;
+}
